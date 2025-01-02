@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# Generated files
+generated_files/
+*.pdf
+*.txt
+!requirements.txt
+
+# Streamlit
+.streamlit/secrets.toml
+config.yaml
+
+# Sensitive data
+setup_admin.py
+reset_admin.py
+fix_indexes.py
+init_admin.py
+**/credentials.* 
